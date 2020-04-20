@@ -1,0 +1,12 @@
+{
+	"name": "YandexCovidMapSource",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://yandex.ru/web-maps/covid19",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
