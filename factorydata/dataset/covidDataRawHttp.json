@@ -1,0 +1,16 @@
+{
+	"name": "covidDataRawHttp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "YandexCovidMapSource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		}
+	}
+}
