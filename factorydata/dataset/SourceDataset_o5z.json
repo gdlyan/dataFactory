@@ -1,0 +1,16 @@
+{
+	"name": "SourceDataset_o5z",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "YandexCovidMapSource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		}
+	}
+}
